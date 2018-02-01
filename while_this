@@ -1,0 +1,9 @@
+statement_int = 0
+
+print("Can you guess what this program does? Press ENTER and see")
+
+input(' ')
+
+while (statement_int <= 100)
+    print("I love you")
+    statement_int = statment_int + 1
