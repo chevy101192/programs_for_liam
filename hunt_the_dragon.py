@@ -8,7 +8,7 @@ def main():
     player_location == choice(cave_numbers)
     
     ###Dialogue to induce Game play###
-    print("Welcome to your Kingdom!")
+    print("Welcome to our Kingdom!")
     print("Might i ask... What is your name?")
     player_name = input("> ")
     print("""Well fair {} it's an honor to meet you!
@@ -63,7 +63,7 @@ def math():
         player_answer = int(input("{} + {} = ".format(first_num, second_num)))
         
         ###compare player input to the correct answer###
-        if player_answer == answer):
+        if (player_answer == answer):
             ###increase the iterator variable###
             iterator = iterator +1
             til_done = (iterator - 4) * -1)
